@@ -1,0 +1,8 @@
+I already saw this problem before, switching wins 2/3 of the time, keeping your choice wins 1/3 of the time.
+This is because your chances of picking a dud are 2/3, and the host must open a dud door.
+
+p(picking a dud first) = 2/3
+p(picking the prize first) = 1/3
+
+If you pick a dud, and you switch, your chances of winning are 100%
+You had a 2/3 chance of picking a dud originally, so if you switch you have a 2/3 chance of winning
