@@ -5,7 +5,7 @@ Suppose that the test is now administered to a person whose disease status is un
 1. Be positive
 Correctly diagnose a sufferer of Thripshaw's
 Correctly identify a non-sufferer of Thripshaw's
-Misclassify the person
+Misclassify the person 
 
 P(pos) = P(thrip) * p(pos | thrip) + p(!thrip) * p(pos | !thrip)
 p(thrip) = 1/200
