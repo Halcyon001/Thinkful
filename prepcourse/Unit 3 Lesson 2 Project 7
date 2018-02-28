@@ -1,0 +1,12 @@
+Data Source: Amsterdam availability data scraped from AirBnB on December 24th. Question: What are the popular neighborhoods in Amsterdam?
+
+Data Source: Mental health services use on September 12, 2001 in San Francisco, CA and New York City, NY. Question: How do patterns of mental health service use vary between cities?
+
+Data Source: Armenian Pub Survey. Question: What are the most common reasons Armenians visit local pubs?
+
+1. There could be more people using AirBnB to go on vacation at this time of year because it's Christmas time, which could skew the data.
+
+2. Because September 11th happened in NY city the day before...
+
+3. The survey respondents are almost all young students! You could try to answer the question "what are the most common reasons armenian
+STUDENTS visit local pubs?" But not "Armenians" in general.
