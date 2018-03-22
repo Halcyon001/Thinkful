@@ -1,0 +1,33 @@
+1. What was the hottest day in our data set? Where was that?
+
+select
+	zip,
+	max(maxtemperaturef) max_temperature
+from
+	weather
+  
+  
+2. How many trips started at each station?
+
+select
+	start_station,
+	count(start_station) number_of_trips
+from
+	trips
+group by start_station
+
+3. What's the shortest trip that happened?
+
+select
+	min(duration)
+from
+	trips
+  
+4. What is the average trip duration, by end station?
+
+select
+	end_station,
+	avg(duration)
+from
+	trips
+group by end_station
