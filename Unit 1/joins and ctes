@@ -56,5 +56,15 @@ order by stations.dockcount desc
 
 4. (Challenge) What's the length of the longest trip for each day it rains anywhere?
 
+select
+	max(trips.duration) longest_trip,
+	weather.Date
+from
+	trips
+join
+	weather
+on
+	date(trips.start_date) = weather.Date 
+group by weather.Date
 
 
