@@ -1,0 +1,40 @@
+I used a table of airbnb listings from washington dc
+
+1. What's the most expensive listing? What else can you tell me about the listing?
+
+select name, host_name, neighbourhood, room_type, price, minimum_nights
+from listings
+order by price desc, minimum_nights desc;
+
+The most expensive listing is the "Rare Close-In Capitol Hill Condo for Inauguration," owned by "Rachel," in the	"Union Station, Stanton Park, Kingman Park" neighborhood.
+The rental area is an entire home/apt, and has a price of	$999 per night, with a minimum required stay of 3 nights.
+There are other airbnbs with a price of 999$/night, but this is the only one that requires you stay 3 nights, which makes it the priciest.
+
+2. What neighborhoods seem to be the most popular?
+
+select neighbourhood, count(*) number_of_listings
+from listings
+group by neighbourhood
+order by number_of_listings desc
+
+The most popular neighborhoods appear to be:
+"Columbia Heights, Mt. Pleasant, Pleasant Plains, Park View" - "803" listings
+"Union Station, Stanton Park, Kingman Park" - "762" listings
+"Capitol Hill, Lincoln Park" - "683" listings
+"Dupont Circle, Connecticut Avenue/K Street" - "558"
+"Edgewood, Bloomingdale, Truxton Circle, Eckington" - "536"
+"Shaw, Logan Circle" - "530" listings
+
+
+3. What time of year is the cheapest time to go to your city? What about the busiest?
+
+select listing_id, calendar.date, count(*) taken_dates
+from calendar
+join listings
+on calendar.listing_id = listings.id
+where calendar.available like 't'
+group by strftime('%m', calendar.date)
+order by count(*) desc
+-- the resulting table shows the number of occupied spaces per month
+
+The busiest time of year is the summer months/beginning of fall, according to the airbnb data, the months from june-october have the most activity
