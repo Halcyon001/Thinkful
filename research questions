@@ -1,0 +1,29 @@
+1. What is the 1994 rate of juvenile delinquency in the U.S.?
+This isn't a good research question because there is nothing to research. The only problem with the question itself is that in the vernacular, "juvenile delinquency" may not be well-defined. The rate of what particular phenomena is the question referring to? People younger than 18 committing felonies? Misdemeanors? Presumably data on juvenile crime or delinquency or whatever has already been recorded, so answering this question is as simple as retrieving the data for the population and juvenile delinquents, and then aggregating that data into a rate.
+
+2. What can we do to reduce juvenile delinquency in the U.S.?
+This is a good subject to be researching, but the question itself is very broad. In order to come up with actionable practical model, we would have to run some experiments to collect data, or collect existing data on various factors of juvenile delinquency. It could be more effective to break this question down into a series of other questions about more specific things we can do to reduce juvenile delinquency that are either testable, or that we already have data on. For example, one of those questions might be "What is the effect of increasing the education budget of areas where crime is prevalent on juvenile delinquency?"
+
+3. Does education play a role in reducing juvenile delinquents' return to crime?
+Oh, this is the question I literally just suggested. No, I did not see this question before I responded to the previous one. I think this is a good research question because the category is more specific. Instead of just asking about what can be done to reduce juvenile crime (which could include a myriad of categories), it's asking about one specific category: education. This narrower scope of the question makes it easier for us to direct our focus in on this particular factor. Given the knowledge we already have, it seems likely that education could play a role in reducing delinquency and crime, so making a model to help understand that would be good.
+
+4. How many customers does AT&T currently serve in Washington, DC?
+This isn't a research question. This is just a question. And AT&T has the answer. You could interpret the question in a few different ways though. Such as "How many customers use AT&T's service on average in Washington DC on a daily basis?" vs "How many residents of Washington DC are subscribed to AT&T's service?"
+
+5. What factors lead consumers to choose AT&T over other service providers?
+This is a good research question. We can compare side by side the aspects of AT&Ts service and other service providers. However, this is a very hard question to come up with correct answer to. But, the most practically helpful answer is not necessarily the most correct one. We would need to include demographic data however as well, not just the aspects of different telecom companies' services, since people don't just make decisions based on the available options of the service.
+
+6. How can AT&T attract more customers?
+This is a good research question, but it may be difficult for a data scientist to solve on his own without input from marketing experts who are already familiar with the factors of a marketing situation. Otherwise, how would you know what data to collect? After consulting with someone like that, you could potentially design a model that represents marketing goals that successful campaigns meet, and use that to predict AT&Ts success at attracting more customers. Alternatively, you could just look at only the things that AT&T is doing and use the data about AT&Ts marketing activities to make a model to try to understand what they are doing well and what they can improve.
+
+7. Why did the Challenger Shuttle explode?
+Just ask the engineers who worked for the contractor that NASA hired to work on the shuttle (upon a cursory google search it seems because one of the parts couldn't sufficiently stick in place in the cold weather)
+
+8. Which genes are associated with increased risk of breast cancer?
+This is a good research question, we can collect data on the genes of people with breast cancer (presumably their consent would be required) and use it to try to build a predictive model for breast cancer.
+
+9. Is it better to read to children at night or in the morning?
+This is a bad research question because it uses the word "better" without any definition of what the word means. If you specifically defined it to refer to some particular phenomena (such as reading comprehension), it could become a better research question. 
+
+10. How does Google’s search algorithm work?
+The way I see "research" questions is that they try to answer things we don't know. Engineers at google have the algorithm's code on file. The answer to this question is known. That said, if you were a random guy trying to figure out how the algorithm works for fun, I think you would have to more specifically define what behavior you are interested in when you say "how the algorithm works." It could be hard though, if not impossible, to understand some things about the algorithm, since what you see as a user of the search function is not reflective of everything that goes on under the hood.
